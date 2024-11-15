@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function FAQ() {
   return (
     <section className="bg-primary">
-      <div className="pb-40 pt-1.5 container mx-auto">
+      <div className="pb-40 pt-1.5 container px-1.5 mx-auto">
         <div className="relative">
           <h2 className="text-white text-4xl md:text-5xl font-bold text-center mt-12 mb-16 font-no-continue bg-gradient">
             FAQ
@@ -56,7 +56,7 @@ const FaqItem = ({ id, question, answer }: FaqItem) => {
   const toggleIsOpen = () => setIsOpen((prev) => !prev);
   return (
     <div key={id} className=" rounded-lg overflow-hidden">
-      <div className="flex justify-between items-center bg-[hsl(178,100%,47%,0.3)] px-6 py-4">
+      <div className="flex justify-between items-center bg-[hsl(178,100%,47%,0.3)] px-3.5 py-3">
         <p className="text-white font-medium tracking-wide">{question}</p>
         <Image
           src={Arrow}
