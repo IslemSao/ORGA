@@ -1,14 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+import 
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --font-no-continue: 'No Continue', sans-serif; 
+
 }
 
+
+@font-face {
+  font-family: "No Continue";
+  src: url("/fonts/gomarice_no_continue.ttf") format("truetype");
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
