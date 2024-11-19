@@ -32,7 +32,7 @@ export default function Slider() {
   return (
     <section id="slider" className="py-36 bg-primary relative text-white">
       <div className="px-4 flex flex-col gap-16">
-        <h2 className="text-3xl md:text-5xl font-bold text-center text-shadow-1">
+        <h2 className="text-5xl md:text-6xl text-center text-shadow-1 font-no-continue">
           SPEAKERS
         </h2>
         <div className="flex items-center justify-center gap-12">

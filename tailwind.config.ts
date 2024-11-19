@@ -14,7 +14,7 @@ const config: Config = {
       fontFamily: {
         'photograph': ['var(--font-inter)', 'sans-serif'],
         'futura-md': ['var(--font-inter)', 'sans-serif'],
-        'no-continue': ['var(--font-inter)', 'sans-serif'],
+        'no-continue': ['No Continue', 'sans-serif'],
         'futura-bold': ['var(--font-inter)', 'sans-serif'],
       },
       backgroundImage: {
