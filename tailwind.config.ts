@@ -1,4 +1,6 @@
 import type { Config } from 'tailwindcss';
+import type { PluginAPI } from 'tailwindcss/types/config';
+
 
 const config: Config = {
   darkMode: ['class'],
@@ -83,6 +85,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [
+    require('tailwindcss-animate'),
+    function ({ addUtilities }:PluginAPI){
+      addUtilities({
+        '.text-shadow-1': {
+          textShadow: '0px -7.42px 148.88px #FF0050',
+        },
+      });
+    },
+  ],
 };
 export default config;
