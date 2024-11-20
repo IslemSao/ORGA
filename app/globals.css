@@ -9,6 +9,13 @@
   --font-no-continue: 'No Continue', sans-serif; 
 }
 
+@font-face {
+  font-family: "No Continue";
+  src: url("/fonts/gomarice_no_continue.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
