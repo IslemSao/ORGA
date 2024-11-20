@@ -4,10 +4,14 @@ import Slider from '@/components/sections/Slider';
 import Speakers from '@/components/sections/Speakers';
 import Footer from '@/components/sections/Footer';
 import FAQ from "@/components/sections/FAQ";
+import Navbar from '@/components/sections/Navbar';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative justify-center items-center">
+      <div className=' fixed z-50 '>
+      <Navbar/>
+      </div>
       <Hero />
         <Speakers />
         <Agenda />

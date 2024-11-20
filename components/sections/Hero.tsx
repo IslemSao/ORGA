@@ -1,19 +1,17 @@
+import Image from "next/image";
+import image from "../../app/public/Grid_bg.svg"
+import logo from "../../app/public/Logo.svg"
+import slogan from "../../app/public/slogan.svg"
+import Navbar from "./Navbar";
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-background to-secondary">
-      <div className="container px-4 py-16">
-        <h1 className="text-4xl md:text-6xl font-futura-bold text-center">
-          Hero Section
-        </h1>
-        <p className="mt-4 text-center text-muted-foreground font-futura-md">
-          Team member 1 will work on this section
-        </p>
-        <div className="mt-8 text-2xl font-photograph text-center">
-          Signature Style Text
-        </div>
-        <div className="mt-4 text-xl font-no-continue text-center">
-          Creative Heading
-        </div>
+    <section id="hero" className=" relative min-h-screen flex items-center justify-center bg-[#111111]  min-w-full">
+      <div className=" inset-0 absolute z-0 ">
+         <Image src={image}  layout="fill" alt="img" objectFit="cover" className=" h-full w-full"/>
+      </div>
+      <div className="container px-4 py-16 flex justify-center items-center flex-col z-40 gap-4">
+        <Image src={logo} alt="logo" width={600} height={600}/>
+        <Image src={slogan} alt="slogan" width={600} height={400} />
       </div>
     </section>
   );
