@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Alice Johnson",
+    "description": "Alice is a renowned software engineer with over 10 years of experience in cloud computing and distributed systems. Her contributions to open-source projects and her in-depth knowledge of containerization technologies like Kubernetes.",
+    "imagePath":"/images/speaker1.svg"
+  },
+  {
+    "name": "David Smith",
+    "description": "David is a data scientist specializing in machine learning and artificial intelligence, with a focus on ethical AI development. He is also a speaker at international conferences, where he promotes the responsible use of AI technologies.",
+    "imagePath":"/images/speaker2.svg"
+  },
+  {
+    "name": "Sophia Martinez",
+    "description": "Sophia is an award-winning UX designer passionate about creating accessible and user-centered digital experiences. Her portfolio includes intuitive mobile apps, responsive websites, and innovative design systems.",
+    "imagePath":"/images/speaker3.svg"
+  },
+  {
+    "name": "Michael Lee",
+    "description": "Michael is a cybersecurity expert dedicated to helping organizations strengthen their digital defenses. Michael also contributes to cybersecurity publications, sharing insights on emerging threats and mitigation strategies.",
+    "imagePath":"/images/speaker2.svg"
+  }
+]
