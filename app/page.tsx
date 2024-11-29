@@ -9,7 +9,7 @@ import Navbar from '@/components/sections/Navbar';
 export default function Home() {
   return (
     <main className="min-h-screen relative justify-center items-center">
-      <div className=' fixed z-50 '>
+      <div className=' sticky z-50 flex justify-center items-center '>
       <Navbar/>
       </div>
       <Hero />

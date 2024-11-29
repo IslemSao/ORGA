@@ -81,6 +81,9 @@ const config: Config = {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
             },
+                boxShadow:{
+        'custom-spread': '0 0 20px 20px rgba(255, 0, 80, 0.05)',
+      }
         },
     },
     plugins: [
